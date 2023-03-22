@@ -1,0 +1,16 @@
+import { Outlet } from "react-router-dom";
+//import Footer from "../components/Footer";
+import Header from "../components/Header";
+
+
+export default function Layouts() {return(
+    <>
+    <Header/>
+    <main>
+    <div id="section-top">
+    <Outlet/>
+    </div>
+    </main>
+   
+    </>
+)}

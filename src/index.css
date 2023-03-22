@@ -1,0 +1,49 @@
+*{
+  margin: 0;
+  padding: 0;
+  
+  
+}
+
+
+body {
+  display: flex;
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Rubik;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  line-height: 1.8em;
+  text-transform: none;
+  color: black;
+}
+
+#section-top {
+  padding-top: 80px;
+}
+
+h1 {
+  
+  font-family: Rubik;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 60px;
+  letter-spacing: 0.01em;
+  line-height: 1.4em;
+  text-transform: none;
+  margin-right: 300px;
+}
+
+h3 {
+  
+  font-family: Rubik;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 16px;
+  letter-spacing: 0.16em;
+  line-height: 1.8em;
+  text-transform: none;
+}
