@@ -1,7 +1,7 @@
 import { NavLink,Link } from "react-router-dom";
 
 const navLinks = [
-  { to: "/homework", title: "HOMEWORK" },
+  
   { to: "/lineas", title: "LINEAS" },
   { to: "/categorias", title: "CATEGORIAS" },
   { to: "/galeria", title: "GALERIA" },

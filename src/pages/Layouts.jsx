@@ -7,7 +7,7 @@ import Carrusel from '../components/Hero'
 export default function Layouts() {return(
     <>
     <Header/>
-    <Carrusel/>
+    
     <main>
     
     <Outlet/>

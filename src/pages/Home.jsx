@@ -1,5 +1,6 @@
 import React from "react";
 import Content from "../components/Content";
+import Carrusel from "../components/Hero";
 
 const contentData = [
   //primera seccion del contedido de la web
@@ -61,6 +62,7 @@ const contentData = [
 export default function Home() {
   return (
     <>
+    <Carrusel/>
       <Content data={contentData[0]} />
       <Content data={contentData[1]} />
     </>
