@@ -4,14 +4,19 @@ import Content from "../components/Content";
 const contentData = [
   //primera seccion del contedido de la web
   {
-    image:
-      "https://images.squarespace-cdn.com/content/v1/54263706e4b0e2d40dd9f6d4/1662655441708-3N9AAX3DJR11TQ1KMS7C/DSC09779+Mesa+silla+verde+crop.jpg",
-    title: "LINEA OFFICE",
+    image: 
+      <img
+        src="https://images.squarespace-cdn.com/content/v1/54263706e4b0e2d40dd9f6d4/1662655441708-3N9AAX3DJR11TQ1KMS7C/DSC09779+Mesa+silla+verde+crop.jpg"
+        atl="Mesa silla verde crop"
+        title="Mesa silla verde crop"
+      />
+    ,
+    title: "LÍNEA OFFICE",
     description:
       "Mobiliario ergonómico de tendencia para espacios de trabajo,oficinas y ambientes ejecutivos de todo tipo. Variedad de sillas,mesas, escritorios, recepciones, sala de reuniones y espacios compartidos, todos pensados en la funcionalidad necesaria para los espacios corporativos actuales.",
     imagecontent: [
       <img
-        src="https://images.squarespace-cdn.com/content/v1/54263706e4b0e2d40dd9f6d4/1662574609977-9557HKJOM8Y3ZZ0EUVMH/DSC02616.jpg?format=500w"
+        src="https://images.squarespace-cdn.com/content/v1/54263706e4b0e2d40dd9f6d4/1603938240291-QUTS561YKK05AVE04C79/black+mesh.jpg?format=300w"
         alt="SILLAS DE ESCRITORIO"
       />,
       <img
@@ -26,8 +31,13 @@ const contentData = [
   },
   //siguiente seccion
   {
-    image:
-      "https://images.squarespace-cdn.com/content/v1/54263706e4b0e2d40dd9f6d4/5b17c9b4-59cd-4345-8865-244ad5a9eea2/SKY+LOUNGE+crop.jpg",
+    image: (
+      <img
+        src="https://images.squarespace-cdn.com/content/v1/54263706e4b0e2d40dd9f6d4/5b17c9b4-59cd-4345-8865-244ad5a9eea2/SKY+LOUNGE+crop.jpg"
+        atl="Mesa silla blanca ext"
+        title="Mesa silla blanca ext"
+      />
+    ),
     title: "LÍNEA CONTRACT",
     description:
       "Amplia línea que incluye sillas, taburetes, tumbonas y mesas, todos diseñados para ser multifuncionales y con un estilo auténtico, moderno y novedoso.  Fabricados con materiales de tendencia como el policarbonato transparente, y resistentes a condiciones medioambientales usuales.",
@@ -51,8 +61,7 @@ const contentData = [
 export default function Home() {
   return (
     <>
-    
-      <Content data={contentData[0]}  />
+      <Content data={contentData[0]} />
       <Content data={contentData[1]} />
     </>
   );
