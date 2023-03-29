@@ -17,15 +17,15 @@ const contentData = [
       "Mobiliario ergonómico de tendencia para espacios de trabajo,oficinas y ambientes ejecutivos de todo tipo. Variedad de sillas,mesas, escritorios, recepciones, sala de reuniones y espacios compartidos, todos pensados en la funcionalidad necesaria para los espacios corporativos actuales.",
     imagecontent: [
       <img
-        src="https://images.squarespace-cdn.com/content/v1/54263706e4b0e2d40dd9f6d4/1603938240291-QUTS561YKK05AVE04C79/black+mesh.jpg?format=300w"
+        src="https://images.squarespace-cdn.com/content/v1/54263706e4b0e2d40dd9f6d4/1603938240291-QUTS561YKK05AVE04C79/black+mesh.jpg"
         alt="SILLAS DE ESCRITORIO"
       />,
       <img
-        src="https://images.squarespace-cdn.com/content/v1/54263706e4b0e2d40dd9f6d4/1662574927773-OBTQ59SZMZBBZLSWVZLO/DSC00260.JPG?format=500w"
+        src="https://images.squarespace-cdn.com/content/v1/54263706e4b0e2d40dd9f6d4/1662574927773-OBTQ59SZMZBBZLSWVZLO/DSC00260.JPG"
         alt="ESCRITORIOs"
       />,
       <img
-        src="https://images.squarespace-cdn.com/content/v1/54263706e4b0e2d40dd9f6d4/1662574747810-DVCK29S57X475CZR6JNR/DSC00276.jpg?format=500w"
+        src="https://images.squarespace-cdn.com/content/v1/54263706e4b0e2d40dd9f6d4/1662574747810-DVCK29S57X475CZR6JNR/DSC00276.jpg"
         alt="SISTEMAS MODULARES"
       />,
     ],

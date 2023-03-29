@@ -16,13 +16,13 @@ export default function Carrusel() {
   }, []);
 
   return (
-    <div className="relative w-screen  pt-20 max-w-screen-xl mx-auto ">
+    <div className="relative w-[500px] h-[500px]  md:pt-20  max-w-screen-xl mx-auto ">
       {images.map((image, index) => (
         <img
           key={index}
           src={image}
           alt={`Imagen del carrusel ${index + 1}`}
-          className={`absolute w-full h-full transition-opacity duration-500 rounded-lg ${
+          className={`absolute    transition-opacity duration-500  ${
             index === currentImage ? "opacity-100" : "opacity-0"
           }`}
         />
