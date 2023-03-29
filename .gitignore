@@ -1,0 +1,21 @@
+# .gitignore para proyectos con PNPM y Tailwind
+
+# Carpeta de dependencias
+node_modules
+
+# Carpeta de archivos construidos
+/build
+/dist
+
+# Archivos de configuración de desarrollo
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Carpeta de caché de Vite
+.cache
+
+# Archivo de registro
+yarn-error.log
+npm-debug.log*
