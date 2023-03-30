@@ -1,7 +1,8 @@
 import { createBrowserRouter } from "react-router-dom";
 import Home from "../pages/Home";
-import Lineas from "../pages/Lineas";
-import Categorias from "../pages/Categorias";
+import Oficina from "../pages/Oficina";
+import Exterior from "../pages/Exterior";
+import Financiamiento from "../pages/Financiamiento";
 import Galeria from "../pages/Galeria";
 import Contacto from "../pages/Contacto";
 import NotFound from "../pages/NotFound";
@@ -18,12 +19,16 @@ export const router = createBrowserRouter([
         element: <Home />,
       },
       {
-        path: "/lineas",
-        element: <Lineas />,
+        path: "/oficina",
+        element: <Oficina />,
       },
       {
-        path: "/categorias",
-        element: <Categorias />,
+        path: "/exterior",
+        element: <Exterior />,
+      },
+      {
+        path: "/financiamiento",
+        element: <Financiamiento />,
       },
       {
         path: "/galeria",

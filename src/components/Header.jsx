@@ -2,8 +2,9 @@ import { NavLink,Link } from "react-router-dom";
 
 const navLinks = [
   
-  { to: "/lineas", title: "LINEAS" },
-  { to: "/categorias", title: "CATEGORIAS" },
+  { to: "/oficina", title: "OFICINA" },
+  { to: "/exterior", title: "EXTERIOR" },
+  { to: "/financiamiento", title: "FINANCIAMIENTO" },
   { to: "/galeria", title: "GALERIA" },
   { to: "/contacto", title: "CONTACTO" },
   { to: "/nosotros", title: "NOSOTROS" },
