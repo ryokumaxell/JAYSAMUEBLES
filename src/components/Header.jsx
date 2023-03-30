@@ -6,6 +6,7 @@ const navLinks = [
   { to: "/categorias", title: "CATEGORIAS" },
   { to: "/galeria", title: "GALERIA" },
   { to: "/contacto", title: "CONTACTO" },
+  { to: "/nosotros", title: "NOSOTROS" },
 ];
 
 export default function Header() {
