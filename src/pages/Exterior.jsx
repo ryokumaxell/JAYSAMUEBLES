@@ -1,11 +1,13 @@
 import Line from "../components/SectionLine";
 import NamOverPhot from "../components/NameOverPhoto";
+import isotipoJaySA from "/public/siesta_exclusive_logo_black.jpg";
 
 const sectionContent = {
   mainTitle: "modelos exterior",
   mainDescription:
     "Mobiliario ergonómico de tendencia para espacios de trabajo,oficinas y ambientes ejecutivos de todo tipo. Variedad de sillas,mesas, escritorios, recepciones, sala de reuniones y espacios compartidos, todos pensados en la funcionalidad necesaria para los espacios corporativos actuales.",
-    mainImage: "https://images.squarespace-cdn.com/content/v1/54263706e4b0e2d40dd9f6d4/5b17c9b4-59cd-4345-8865-244ad5a9eea2/SKY+LOUNGE+crop.jpg"
+    mainImage: "https://images.squarespace-cdn.com/content/v1/54263706e4b0e2d40dd9f6d4/5b17c9b4-59cd-4345-8865-244ad5a9eea2/SKY+LOUNGE+crop.jpg",
+    isotipoImage: isotipoJaySA,
 };
 
 export default function Exterior() {
@@ -13,63 +15,46 @@ export default function Exterior() {
       <div className="px-20 pt-16 p-3 max-w-screen-xl mx-auto ">
       <Line  sectionContent={sectionContent} /> 
 
-      <div className="grid grid-cols-3 justify-items-center ">
+      <div className="grid grid-cols-3 justify-items-center  ">
 
       <NamOverPhot
-          src="https://images.squarespace-cdn.com/content/v1/54263706e4b0e2d40dd9f6d4/1588254952733-WUUG3Z78SX5D9XMT84CV/CORE-BGA1.jpg"
+          src="https://images.squarespace-cdn.com/content/v1/54263706e4b0e2d40dd9f6d4/1593451395895-TN2E20YULUSF2EKLM3LP/thumb_new_contract_gallery_339_air%402x.jpg"
           alt="silla blanca"
           title="silla blanca"
-          text="SILLAS DE ESCRITORIO"
+          text="SILLAS"
         />
 
 <NamOverPhot
-          src="https://images.squarespace-cdn.com/content/v1/54263706e4b0e2d40dd9f6d4/1588255000095-4KBC89CQUW245OJ53LVZ/SIGHT-BN1.jpg"
+          src="https://images.squarespace-cdn.com/content/v1/54263706e4b0e2d40dd9f6d4/1595024785631-ONNK07URBM5O5GU327PV/new_contract_gallery_373_air_65%402x.jpg"
           alt="silla blanca"
           title="silla blanca"
-          text="TABURETE DE ESCRITORIO"
+          text="TABURETE"
         />
         <NamOverPhot
-          src="https://images.squarespace-cdn.com/content/v1/54263706e4b0e2d40dd9f6d4/1588255060021-JYHX9U053CGI9BF8CY8W/03-.jpg?format=300w"
+          src="https://images.squarespace-cdn.com/content/v1/54263706e4b0e2d40dd9f6d4/1595601639468-XH34X74DSQ7RNG2S2GJV/image-thumb-1540283087-9004.jpg"
           alt="silla blanca"
           title="silla blanca"
-          text="ESCRITORIO"
+          text="MESA"
         />
         <NamOverPhot
-          src="https://images.squarespace-cdn.com/content/v1/54263706e4b0e2d40dd9f6d4/1588255103127-YMM3Q52TNNE7M5O7TE10/MWS103524X.GB.jpg"
+          src="https://images.squarespace-cdn.com/content/v1/54263706e4b0e2d40dd9f6d4/1595605161860-B85L62JVFM52S9WJZF6T/thumb_new_rattan_gallery_003_fiji_ml_sidetable%402x.jpg"
           alt="silla blanca"
           title="silla blanca"
-          text="MESA DE REUNIONES"
+          text="TUMBONAS"
         />
         <NamOverPhot
-          src="https://images.squarespace-cdn.com/content/v1/54263706e4b0e2d40dd9f6d4/1588255226403-BOLT5PFOKNJMGCC9GRKG/arch.jpg"
+          src="https://images.squarespace-cdn.com/content/v1/54263706e4b0e2d40dd9f6d4/1595605310032-WWQZBII2NLAZ7O3LJSU7/thumb_new_rattan_gallery_129_ml_set%402.jpg"
           alt="silla blanca"
           title="silla blanca"
-          text="ARCIVO"
+          text="LOUNGE"
         />
         <NamOverPhot
-          src="https://images.squarespace-cdn.com/content/v1/54263706e4b0e2d40dd9f6d4/1588255427291-EAAPH7KI4X804DG29JLW/MWJMRT120R.GB.jpg"
+          src="https://images.squarespace-cdn.com/content/v1/54263706e4b0e2d40dd9f6d4/1568147576629-7OC0D7V3DLM035IMJS62/new_rattan_gallery_138_hawaii%402.jpg"
           alt="silla blanca"
           title="silla blanca"
-          text="CREDENZA"
+          text="COLUMPIO"
         />
-        <NamOverPhot
-          src="https://images.squarespace-cdn.com/content/v1/54263706e4b0e2d40dd9f6d4/1588255445859-I435OI1NP707SYYEBSTO/MWJMESTA20L.GB.png"
-          alt="silla blanca"
-          title="silla blanca"
-          text="ESTANTES"
-        />
-        <NamOverPhot
-          src="https://images.squarespace-cdn.com/content/v1/54263706e4b0e2d40dd9f6d4/1588255505800-SNXIWU4WM8B3E010JMMX/SISTEMAS%252BMODULARES.jpg"
-          alt="silla blanca"
-          title="silla blanca"
-          text="SISTEMA MODULARES"
-        />
-        <NamOverPhot
-          src="https://www.hermanmiller.com/content/dam/hmicom/page_assets/products/ubi_organizers/ig_prd_ovw_ubi_organizers_09.jpg.rendition.480.480.jpg"
-          alt="silla blanca"
-          title="silla blanca"
-          text="ACCESORIOS"
-        />
+        
 
       </div>
 

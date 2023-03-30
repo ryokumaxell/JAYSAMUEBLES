@@ -1,11 +1,13 @@
 import Line from "../components/SectionLine";
 import NamOverPhot from "../components/NameOverPhoto";
+import isotipoJaySA from "/public/ISOTIPO JAYSA.jpg";
 
 const sectionContent = {
   mainTitle: "MODELOS OFICINA",
   mainDescription:
     "Mobiliario ergonómico de tendencia para espacios de trabajo,oficinas y ambientes ejecutivos de todo tipo. Variedad de sillas,mesas, escritorios, recepciones, sala de reuniones y espacios compartidos, todos pensados en la funcionalidad necesaria para los espacios corporativos actuales.",
-    mainImage: "https://images.squarespace-cdn.com/content/v1/54263706e4b0e2d40dd9f6d4/1662655441708-3N9AAX3DJR11TQ1KMS7C/DSC09779+Mesa+silla+verde+crop.jpg"
+    mainImage: "https://images.squarespace-cdn.com/content/v1/54263706e4b0e2d40dd9f6d4/1662655441708-3N9AAX3DJR11TQ1KMS7C/DSC09779+Mesa+silla+verde+crop.jpg",
+    isotipoImage: isotipoJaySA,
 };
 
 
@@ -14,6 +16,8 @@ export default function Oficina(props) {
     return (
       <div className="px-20 pt-16 p-3 max-w-screen-xl mx-auto ">
       <Line  sectionContent={sectionContent} /> 
+
+      
 
       <div className="grid grid-cols-3 justify-items-center ">
 
