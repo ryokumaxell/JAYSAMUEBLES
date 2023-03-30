@@ -1,23 +1,40 @@
-import NamOverPhot from "../components/NameOverPhoto";
 
-export default function NamOverPhot(props) {
+
+
+const sectionContent = {
+    mainTitle: "",
+    mainDescription:
+      "",
+      mainImage: ""
     
-    return (
+  };
+  
+export default function Line(props) {
+  
 
-   <div className="py-5">
-          <img
-            src="https://images.squarespace-cdn.com/content/v1/54263706e4b0e2d40dd9f6d4/1662655441708-3N9AAX3DJR11TQ1KMS7C/DSC09779+Mesa+silla+verde+crop.jpg"
-            atl="Mesa silla verde crop"
-            title="Mesa silla verde crop"
-          />
+  return (
+    <>
+      
+        <div className="py-5 flex justify-between items-center max-w-screen-xl" >
+          <p className="font-rubik font-light text-6xl p-2 tracking-wider leading-relaxed uppercase">
+          {props.sectionContent.mainTitle}
+          </p>
+          <p className="font-rubik font-light p-2 text-base tracking-wider leading-6">
+          {props.sectionContent.mainDescription}
+          </p>
         </div>
-        
-        <NamOverPhot 
-        src="https://images.squarespace-cdn.com/content/v1/54263706e4b0e2d40dd9f6d4/1603938240291-QUTS561YKK05AVE04C79/black+mesh.jpg"
-        alt="Mesa silla blanca ext"
-        title="Mesa silla blanca ext"
-        text="SISTEMAS MODULARES"
-      />
-    );
-  }
+      
+      <div className="py-5 max-w-screen-xl">
+        <img
+          src={props.sectionContent.mainImage}
+          alt="Mesa silla verde crop"
+          title="Mesa silla verde crop"
+        />
+      </div>
+
+      
+    </>
+  );
+}
+
   
