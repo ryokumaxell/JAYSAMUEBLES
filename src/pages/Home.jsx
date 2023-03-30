@@ -1,5 +1,5 @@
 import React from "react";
-
+import NamOverPhot from "../components/NameOverPhoto";
 import Carrusel from "../components/Hero";
 
 export default function Home() {
@@ -28,38 +28,32 @@ export default function Home() {
           />
         </div>
 
-        <div className="flex justify-between px-3 py-5">
-          <div className="w-1/3 relative">
-          <img
-        src="https://images.squarespace-cdn.com/content/v1/54263706e4b0e2d40dd9f6d4/1603938240291-QUTS561YKK05AVE04C79/black+mesh.jpg"
-        alt="SILLAS DE ESCRITORIO"
-      />
-            <p className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-lg font-bold text-center">
-              SILLAS
-            </p>
-          </div>
+        <div className="flex justify-between">
 
-          <div className="w-1/3 relative">
-          <img
-        src="https://images.squarespace-cdn.com/content/v1/54263706e4b0e2d40dd9f6d4/1662574927773-OBTQ59SZMZBBZLSWVZLO/DSC00260.JPG"
-        alt="ESCRITORIOs"
-      />
-            <p className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-lg font-bold text-center">
-              ESCRITORIOS
-            </p>
-          </div>
+        <NamOverPhot 
+      src="https://images.squarespace-cdn.com/content/v1/54263706e4b0e2d40dd9f6d4/1603938240291-QUTS561YKK05AVE04C79/black+mesh.jpg"
+      alt="silla blanca"
+      title="silla blanca"
+      text="SILLAS DE ESCRITORIO"
+    />
 
-          <div className="w-1/3 relative">
-          <img
-        src="https://images.squarespace-cdn.com/content/v1/54263706e4b0e2d40dd9f6d4/1662574747810-DVCK29S57X475CZR6JNR/DSC00276.jpg"
-        atl="Mesa silla blanca ext"
-        title="Mesa silla blanca ext"
-      />
-            <p className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-lg font-bold text-center">
-              SISTEMAS MODULARES
-            </p>
+<NamOverPhot 
+      src="https://images.squarespace-cdn.com/content/v1/54263706e4b0e2d40dd9f6d4/1662574927773-OBTQ59SZMZBBZLSWVZLO/DSC00260.JPG"
+      alt="silla blanca"
+      title="silla blanca"
+      text="SILLAS DE ESCRITORIO"
+    />
+         
+         <NamOverPhot 
+      src="https://images.squarespace-cdn.com/content/v1/54263706e4b0e2d40dd9f6d4/1662574747810-DVCK29S57X475CZR6JNR/DSC00276.jpg"
+      alt="silla blanca"
+      title="silla blanca"
+      text="SILLAS DE ESCRITORIO"
+    />
+          
           </div>
-        </div>
+         
+            
       </section>
     </>
   );
