@@ -21,6 +21,8 @@ export default function Home(props) {
   return (
     <>
       <Carrusel />
+
+      {/* seccion de mobiliario oficina  */}
     <section className="px-20 pt-5 p-3 max-w-screen-xl mx-auto ">
       <Line sectionContent={sectionContent} />
 
@@ -48,27 +50,29 @@ export default function Home(props) {
       </div>
       
       </section>
+      
+      {/* seccion de mobiliario exterio  */}
 
       <section  className="px-20 pt-5 p-3 max-w-screen-xl mx-auto " >
       <Line sectionContent={sectionContent1} />
 
       <div className="flex max-w-screen-xl">
         <NamOverPhot
-          src="https://images.squarespace-cdn.com/content/v1/54263706e4b0e2d40dd9f6d4/1603938240291-QUTS561YKK05AVE04C79/black+mesh.jpg"
+          src="https://images.squarespace-cdn.com/content/v1/54263706e4b0e2d40dd9f6d4/1662576537788-68IGY6E1XXLARBTYMLAN/new_contract_gallery_498_air_ailesi%25402x.jpg"
           alt="silla blanca"
           title="silla blanca"
           text="SILLAS DE ESCRITORIO"
         />
 
         <NamOverPhot
-          src="https://images.squarespace-cdn.com/content/v1/54263706e4b0e2d40dd9f6d4/1662574927773-OBTQ59SZMZBBZLSWVZLO/DSC00260.JPG"
+          src="https://images.squarespace-cdn.com/content/v1/54263706e4b0e2d40dd9f6d4/1662575980884-XGZW9YQDWUJ8RPQFUDBJ/500_air_air140.jpg"
           alt="silla blanca"
           title="silla blanca"
           text="SILLAS DE ESCRITORIO"
         />
 
         <NamOverPhot
-          src="https://images.squarespace-cdn.com/content/v1/54263706e4b0e2d40dd9f6d4/1662574747810-DVCK29S57X475CZR6JNR/DSC00276.jpg"
+          src="https://images.squarespace-cdn.com/content/v1/54263706e4b0e2d40dd9f6d4/1662576593646-DGT31UA0VYEY9RNOY0O6/image-small-1578294193-7068.jpg"
           alt="silla blanca"
           title="silla blanca"
           text="SILLAS DE ESCRITORIO"
